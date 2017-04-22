@@ -24,13 +24,28 @@
     "author": {
         "name": "Azri Jamil"
     },
-    "name": "node-phonenumber",
+    "bugs": {
+        "url": "https://github.com/wajatimur/node-phonenumber/issues"
+    },
+    "dependencies": {
+        "closure": "1.0.3"
+    },
     "description": "Google's phone number handling library ported to Node",
-    "version": "0.2.4",
-    "main": "lib/index.js",
+    "devDependencies": {
+        "chai": "^2.3.0",
+        "mocha": "^2.5.3"
+    },
     "directories": {
         "lib": "lib"
     },
+    "dist": {
+        "shasum": "a7721973df939675f1d8b3feb5758f5b4faeebbc",
+        "tarball": "https://registry.npmjs.org/node-phonenumber/-/node-phonenumber-0.2.4.tgz"
+    },
+    "engines": {
+        "node": ">= 0.10"
+    },
+    "gitHead": "1d97ac6d7b4f8d1b98e747deb26e244bbf2a33a3",
     "homepage": "http://code.google.com/p/libphonenumber/",
     "keywords": [
         "libphonenumber",
@@ -41,27 +56,23 @@
         "standardize",
         "international"
     ],
+    "main": "lib/index.js",
+    "maintainers": [
+        {
+            "name": "azrijamil"
+        }
+    ],
+    "name": "node-phonenumber",
+    "optionalDependencies": {},
     "repository": {
         "type": "git",
-        "url": "https://github.com/wajatimur/node-phonenumber.git"
-    },
-    "engines": {
-        "node": ">= 0.10"
-    },
-    "dependencies": {
-        "closure": "1.0.3"
-    },
-    "readmeFilename": "README.md",
-    "bugs": {
-        "url": "https://github.com/wajatimur/node-phonenumber/issues"
-    },
-    "devDependencies": {
-        "chai": "^2.3.0",
-        "mocha": "^2.5.3"
+        "url": "git+https://github.com/wajatimur/node-phonenumber.git"
     },
     "scripts": {
         "test": "make test"
-    }
+    },
+    "version": "0.2.4",
+    "bin": {}
 }
 ```
 
